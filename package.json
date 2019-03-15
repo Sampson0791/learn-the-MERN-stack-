@@ -1,0 +1,22 @@
+{
+  "name": "learn_the_mern_stack",
+  "version": "1.0.0",
+  "description": "shopping list application built with mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "test": "\t"
+  },
+  "author": "Sampson Miller",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
+  }
+}
